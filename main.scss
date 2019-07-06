@@ -1,0 +1,48 @@
+@import "_variables.scss";
+@import "header.scss";
+@import "about.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+button:focus {
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", "sans-serif";
+}
+
+#main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: white;
+  background: black url("./resources/images/background.jpg") no-repeat
+    center/cover;
+}
+
+#about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: white;
+}
+
+.media-links__list {
+  display: flex;
+  list-style: none;
+
+  span {
+    font-size: 2rem;
+  }
+
+  i {
+    padding: 0.5rem;
+    color: white;
+  }
+}

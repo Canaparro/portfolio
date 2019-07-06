@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My portfolio page",
+  "main": "about.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marcelo Canaparro",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Canaparro/portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Canaparro/portfolio/issues"
+  },
+  "homepage": "https://github.com/Canaparro/portfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-server": "^0.11.1"
+  }
+}
