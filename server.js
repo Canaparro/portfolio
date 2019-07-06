@@ -4,6 +4,6 @@ var app = express();
 
 app.use(express.static(__dirname));
 
-app.listen(8080);
+app.listen(process.env.PORT || 5000);
 
-console.log("server up and running...");
+console.log("server up and running on port " + (process.env.PORT || 5000));
